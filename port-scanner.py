@@ -11,12 +11,12 @@ def clear():
     if os.name == 'nt':
         _ = os.system('cls')
  
-    # for mac and linux(here, os.name is 'posix')
+    # for mac and linux
     else:
         _ = os.system('clear')
 clear()
     
-print('''|--------------------------------------------Coded by Grim--------------------------------------|''')
+print('''|-----------------------------------------------------------------------------------------|''')
 
 
 host = socket.gethostbyname(input("Enter Your ip/domain: "))
